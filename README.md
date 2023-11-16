@@ -20,7 +20,7 @@
 
 ## Basic Hash Functions
 
-```blake2b_init(blake2b_state *S, size_t outlen, const void *key, size_t keylen)```
+```int blake2b_init(blake2b_state *S, size_t outlen, const void *key, size_t keylen)```
 
 ```int blake2b_update(blake2b_state *S, const void *in, size_t inlen)```
 
