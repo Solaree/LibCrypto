@@ -35,7 +35,7 @@ enum blake2b_constant {
     BLAKE2B_OUTBYTES = 64,
     BLAKE2B_KEYBYTES = 64,
     BLAKE2B_SALTBYTES = 16,
-    BLAKE2B_PERSONALBYTES = 16
+    BLAKE2B_PERSONALBYTES = 16,
 };
 
 typedef struct blake2b_param {
