@@ -1,5 +1,5 @@
-CC = arm-none-eabi-gcc
-CCFLAGS = -g -mthumb -march=armv6 -fPIC --std=gnu89 -I. -Wall
+CC = gcc
+CCFLAGS = -g -m32 -fPIC --std=gnu89 -I. -Wall
 LDFLAGS = -shared
 
 SRC_C = \
