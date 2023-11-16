@@ -28,6 +28,8 @@
 
 ```int blake2b(void *out, size_t outlen, const void *in, size_t inlen, const void *key, size_t keylen)```
 
+```void blake2b_increment_counter(blake2b_state *S, const unsigned int inc)```
+
 ---
 
 **Library can be used in C/C++, Java (JNA), *(maybe C# but untested)***
