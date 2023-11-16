@@ -1,0 +1,1 @@
+void randombytes(unsigned char *buf, unsigned int buf_len);
