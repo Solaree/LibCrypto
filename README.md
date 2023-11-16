@@ -6,7 +6,7 @@
 
 ```void randombytes(unsigned char *buf, unsigned int buf_len)```
 
-```int crypto_scalarmult_base(unsigned char *q,const unsigned char *n)```
+```int crypto_scalarmult_base(unsigned char *q, const unsigned char *n)```
 
 ```int crypto_box_beforenm(unsigned char *k, const unsigned char *y, const unsigned char *x)```
 
