@@ -31,3 +31,5 @@
 ---
 
 **Library can be used in C/C++, Java *(maybe C# but untested)***
+
+Some of precompiled binaries are put in **/lib/** folder
